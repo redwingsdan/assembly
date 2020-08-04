@@ -1,0 +1,25 @@
+ //tick loop
+ tick:
+ sbis pinc,7				;checks to see if pin went to 0
+ rjmp tick					;jumps to tick
+ 
+ inc ticks					;increments ticks
+ cpi ticks,60				;compares the value in ticks to 60
+ breq updatesecs
+ brne display				;if not equal, then breaks to display
+ clr ticks					;clears value in ticks
+ 
+ inc secs					;increments seconds
+ cpi secs,60				;compares the value in seconsd to 60
+ brne display			    ;if not equal, then breaks to display
+ clr secs					;clears seconds
+ 
+ inc mins					;increments minutes
+ cpi mins,60				;compares the value in minutes to 60
+ brne display				;if not equal, breaks to display					
+ clr mins					;clears minutes
+ 
+ inc hours					;increments hours
+ cpi hours,24				;compares the value in hours to 24
+ brne display		    	;if not equal, then breaks to display
+ clr hours					;clears hours

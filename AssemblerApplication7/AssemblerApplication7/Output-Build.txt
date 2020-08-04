@@ -1,0 +1,26 @@
+﻿------ Build started: Project: AssemblerApplication7, Configuration: Debug AVR ------
+Build started.
+Project "AssemblerApplication7.asmproj" (default targets):
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target "CoreBuild" in file "D:\Atmel\Atmel Studio6_1\Vs\Assembler.targets" from project "C:\Documents and Settings\cad.XPSP2012\Desktop\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asmproj" (target "Build" depends on it):
+	Task "RunAssemblerTask"
+		D:\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.39.1005\avrassembler\avrasm2.exe -fI -o "AssemblerApplication7.hex"  -m "AssemblerApplication7.map"  -l "AssemblerApplication7.lss"  -S "AssemblerApplication7.tmp"  -W+ie -itn48def.inc -d "C:\Documents and Settings\cad.XPSP2012\Desktop\AssemblerApplication7\AssemblerApplication7\Debug/AssemblerApplication7.obj"  "C:\Documents and Settings\cad.XPSP2012\Desktop\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asm"  -I "D:\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.39.1005\avrassembler\Include" 
+		AVRASM: AVR macro assembler 2.1.52 (build 44 Jun 18 2012 15:46:37)
+		Copyright (C) 1995-2012 ATMEL Corporation
+		[builtin](2): Including file 'D:\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.39.1005\avrassembler\Include\tn48def.inc'
+		"ATtiny48" memory use summary [bytes]:
+		Segment   Begin    End      Code   Data   Used    Size   Use%
+		---------------------------------------------------------------
+		[.cseg] 0x000000 0x0000f4    232     12    244    4096   6.0%
+		[.dseg] 0x000100 0x000100      0      0      0     256   0.0%
+		[.eseg] 0x000000 0x000000      0      0      0      64   0.0%
+		Assembly complete, 0 errors. 0 warnings
+	Done executing task "RunAssemblerTask".
+Done building target "CoreBuild" in project "AssemblerApplication7.asmproj".
+Target "PostBuildEvent" skipped, due to false condition; ('$(PostBuildEvent)' != '') was evaluated as ('' != '').
+Target "Build" in file "D:\Atmel\Atmel Studio6_1\Vs\Avr.common.targets" from project "C:\Documents and Settings\cad.XPSP2012\Desktop\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asmproj" (entry point):
+Done building target "Build" in project "AssemblerApplication7.asmproj".
+Done building project "AssemblerApplication7.asmproj".
+
+Build succeeded.
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

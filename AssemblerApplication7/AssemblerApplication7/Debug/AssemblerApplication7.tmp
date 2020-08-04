@@ -1,0 +1,40 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.52</VERSION>
+ <DEVICE>"ATtiny48"</DEVICE>
+ <WORKING_DIR>E:\AssemblerApplication7\AssemblerApplication7\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.39.1005\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.39.1005\avrassembler\Include\tn48def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\AssemblerApplication7\AssemblerApplication7\Debug/AssemblerApplication7.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>AssemblerApplication7.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>AssemblerApplication7.map</FILE>
+  <FILE>AssemblerApplication7.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <tick><FILE>E:\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asm</FILE><LINE>31</LINE></tick>
+  <display><FILE>E:\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asm</FILE><LINE>76</LINE></display>
+  <inc_button><FILE>E:\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asm</FILE><LINE>40</LINE></inc_button>
+  <set_button><FILE>E:\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asm</FILE><LINE>51</LINE></set_button>
+  <tock1><FILE>E:\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asm</FILE><LINE>62</LINE></tock1>
+  <delay_21k><FILE>E:\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asm</FILE><LINE>154</LINE></delay_21k>
+  <get_segs><FILE>E:\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asm</FILE><LINE>127</LINE></get_segs>
+  <tock><FILE>E:\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asm</FILE><LINE>113</LINE></tock>
+  <div_m><FILE>E:\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asm</FILE><LINE>129</LINE></div_m>
+  <done_div_m><FILE>E:\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asm</FILE><LINE>135</LINE></done_div_m>
+  <seg_table><FILE>E:\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asm</FILE><LINE>190</LINE></seg_table>
+  <nc1_m><FILE>E:\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asm</FILE><LINE>141</LINE></nc1_m>
+  <nc2_m><FILE>E:\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asm</FILE><LINE>148</LINE></nc2_m>
+  <delay><FILE>E:\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asm</FILE><LINE>180</LINE></delay>
+  <delay_loop><FILE>E:\AssemblerApplication7\AssemblerApplication7\AssemblerApplication7.asm</FILE><LINE>182</LINE></delay_loop>
+ </LABELS>
+</ASSEMBLER_INFO>

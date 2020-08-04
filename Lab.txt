@@ -1,0 +1,75 @@
+.include "tn48def.inc"
+// setup portb
+		ldi r16,0xff				;turn pnp transistors off, pullups on
+		out portb,r16
+		ldi r16,0b11000111
+		out ddrb,r16
+
+// setup portc
+		ldi r16,0b01111100			;enable pullups, set speaker and led off
+		out portc,r16
+		ldi r16,0b00000011
+		out ddrc,r16
+
+// setup portd
+		ldi r16,0b11111111			;set all pins as output, initialize high
+		out portd,r16
+		out ddrd,r16
+
+illuminate:
+		sbis pinb,3
+		rjmp pb3sound
+		sbis pinb,5
+		rjmp pb5sound
+		sbis pinb,4
+		rjmp pb4sound
+		cbi portc,0
+		rjmp illuminate
+
+pb3sound:
+		sbi portc,1
+		rcall delay3
+		cbi portc,1
+		rcall delay3
+		sbi portc,0
+		rjmp illuminate
+
+pb5sound:
+		sbi portc,1
+		rcall delay5
+		cbi portc,1
+		rcall delay5
+		sbi portc,0
+		rjmp illuminate
+
+pb4sound:
+		sbi portc,1
+		rcall delay4
+		cbi portc,1
+		rcall delay4
+		sbi portc,0
+		rjmp illuminate
+
+delay3:
+		clr r31
+delay_loop3:
+		inc r31
+		cpi r31,0x1e
+		brne delay_loop3
+		ret
+
+delay5:
+		clr r31
+delay_loop5:
+		inc r31
+		cpi r31,0x18
+		brne delay_loop5
+		ret
+
+delay4:
+		clr r31
+delay_loop4:
+		inc r31
+		cpi r31,0x16
+		brne delay_loop4
+		ret

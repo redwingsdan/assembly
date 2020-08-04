@@ -1,0 +1,44 @@
+tick:		
+        sbis pinc,7
+        rjmp tick
+        inc ticks
+        cpi ticks, 60
+        brne display 
+        clr ticks
+		rjmp inc_button
+
+inc_button:
+		cbi portc,0
+		sbic pinb,4
+		rjmp set_button
+		sbi portc,0
+		inc minutes
+		cpi minutes,60
+		brne set_button
+		clr minutes
+		rjmp set_button
+
+set_button:
+		cbi portc,0
+		sbic pinb,5
+		rjmp tock1
+		sbi portc,0
+		inc hours
+		cpi hours,24
+		brne tock1
+		clr hours
+		rjmp tock1
+		
+tock1:        
+        inc secs
+        cpi secs, 60
+        brne display
+        clr secs
+        inc minutes
+        cpi minutes, 60
+        brne display
+        clr minutes        
+        inc hours
+        cpi hours, 24
+        brne display
+        clr hours

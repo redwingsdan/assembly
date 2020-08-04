@@ -1,0 +1,11 @@
+﻿16:55:06: [ERROR] Failed to enter programming mode. ispEnterProgMode: Error status received: Got 0xc0, expected 0x00, ModuleName: TCF (TCF command: Device:startSession failed.)
+16:55:19: [ERROR] Failed to enter programming mode. ispEnterProgMode: Error status received: Got 0xc0, expected 0x00, ModuleName: TCF (TCF command: Device:startSession failed.)
+16:55:43: [ERROR] Failed to enter programming mode. ispEnterProgMode: Error status received: Got 0xc0, expected 0x00, ModuleName: TCF (TCF command: Device:startSession failed.)
+16:55:57: [ERROR] Failed to enter programming mode. ispEnterProgMode: Error status received: Got 0xc0, expected 0x00, ModuleName: TCF (TCF command: Device:startSession failed.)
+16:56:34: [ERROR] Failed to enter programming mode. ispEnterProgMode: Error status received: Got 0xc0, expected 0x00, ModuleName: TCF (TCF command: Device:startSession failed.)
+16:57:04: [ERROR] Failed to enter programming mode. ispEnterProgMode: Error status received: Got 0xc0, expected 0x00, ModuleName: TCF (TCF command: Device:startSession failed.)
+17:00:10: [ERROR] Unable to open file F:\ESE 123\AssemblerApplication1\AssemblerApplication1\Debug\AssemblerApplication1.elf: File does not exist., ModuleName: TCF command: Modules:add failed.
+17:00:47: [ERROR] Unable to open file F:\ESE 123\AssemblerApplication1\AssemblerApplication1\Debug\AssemblerApplication1.elf: File does not exist., ModuleName: TCF command: Modules:add failed.
+17:00:51: [ERROR] Unable to open file F:\ESE 123\AssemblerApplication1\AssemblerApplication1\Debug\AssemblerApplication1.elf: File does not exist., ModuleName: TCF command: Modules:add failed.
+17:00:54: [ERROR] Unable to open file F:\ESE 123\AssemblerApplication1\AssemblerApplication1\Debug\AssemblerApplication1.elf: File does not exist., ModuleName: TCF command: Modules:add failed.
+17:00:56: [ERROR] Unable to open file F:\ESE 123\AssemblerApplication1\AssemblerApplication1\Debug\AssemblerApplication1.elf: File does not exist., ModuleName: TCF command: Modules:add failed.
